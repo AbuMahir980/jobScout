@@ -4,3 +4,7 @@ html{
 *, *::before,*::after{
     box-sizing: inherit;
 }
+/*header container*/
+header{
+    background-color: #0E8388;
+}
