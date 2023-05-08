@@ -31,3 +31,14 @@ html{
     border: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 10px;
 }
+/* innerCont h1 */
+.container .innerCont .miniInnCont{
+    position: inherit;
+    background-color: #AAAAAA;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 892px;
+    height: 95px;
+    left: 0px;
+    right: 0px;
+}
