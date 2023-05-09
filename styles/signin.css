@@ -94,4 +94,10 @@ body{
     flex-grow: 0;
     width: 590px;
     height: 562px;
+    gap: 40px;
+}
+.forms .formsLevel1 .miniforms{
+    gap: 16px;
+    width: 590px;
+    height: 269px;
 }
