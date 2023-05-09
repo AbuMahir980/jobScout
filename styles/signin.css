@@ -87,3 +87,11 @@ body{
     left: 152px;
     top: 217px;
 }
+/*forms level*/
+.forms .formsLevel1{
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 590px;
+    height: 562px;
+}
