@@ -6,6 +6,10 @@ html{
     padding: 0;
     margin: 0;
 }
+body{
+    height: 1372px;
+    background: linear-gradient(180deg, #BEDEDF 0%, #C2DFE0 70.76%, #FFFFFF 132.84%);
+}
 /*header container*/
 .container .header{
     background-color: #0E8388;
