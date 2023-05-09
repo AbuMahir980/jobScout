@@ -84,7 +84,7 @@ body{
     position: absolute;
     width: 590px;
     height: 631px;
-    left: 152px;
+    left: 190px;
     top: 217px;
 }
 /*forms level*/
@@ -100,4 +100,8 @@ body{
     gap: 16px;
     width: 590px;
     height: 269px;
+}
+.mail{
+    width: 400px;
+    height: 35px;
 }
