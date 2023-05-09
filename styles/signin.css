@@ -96,12 +96,14 @@ body{
     height: 562px;
     gap: 40px;
 }
+/* miniforms */
 .forms .formsLevel1 .miniforms{
     gap: 16px;
     width: 590px;
     height: 269px;
 }
-.mail{
+/* mail */
+.forms .formsLevel1 .miniforms .mail{
     width: 400px;
     height: 35px;
 }
