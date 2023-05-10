@@ -153,3 +153,17 @@ body{
     text-decoration: none;
 }
 /* button styling */
+.forms .formsLevel1 .miniforms .btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 180px;
+    order: 2;
+    background: #09575B;
+    color: #FFFFFF;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 15px;
+}
