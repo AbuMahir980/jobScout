@@ -134,6 +134,9 @@ body{
     padding-left: 2px;
     font-family: inherit;
 }
+.input:focus{
+    outline: none;
+}
 /* pass class attribute */
 .forms .formsLevel1 .miniforms .pass{
     align-items: flex-end;
