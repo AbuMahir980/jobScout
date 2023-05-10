@@ -38,7 +38,7 @@ body{
 /* miniInnCont */
 .container .innerCont .miniInnCont{
     position: absolute;
-    background-color: #AAAAAA;
+    background: linear-gradient(267.82deg, rgba(255, 255, 255, 0.5) 2.56%, #0E8388 96.02%);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 798px;
