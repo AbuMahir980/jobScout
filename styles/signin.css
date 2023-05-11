@@ -182,3 +182,9 @@ body{
     width: 400px;
     height: 19px;
 }
+/* HR class line styling */
+hr.line{
+    width: 150px;
+    top: 9.5px;
+    border: 1px solid #C0C0C0;
+}
