@@ -237,7 +237,6 @@ div.socials{
     flex: none;
     order: 2;
     flex-grow: 0;
-    background-color: white;
     margin-top: 30px;
 }
 /* .social container styling */
@@ -255,10 +254,18 @@ div.socials{
     flex-grow: 0;
     cursor: pointer;
     padding-right: 120px;
+    padding-top: 3px;
     gap: 90px;
     margin-top: 2px;
+    background-color: #5EACB0;
+    font-family: inherit;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: bold;
+    color: #F9F8F8;
 }
 img.image{
     width: 24px;
     height: 24px;
+    padding-top: 2px;
 }
