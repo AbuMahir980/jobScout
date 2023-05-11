@@ -32,7 +32,6 @@ body{
     left: 295px;
     top: 220px;
     background: #5EACB0;
-    border: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 10px;
 }
 /* miniInnCont */
@@ -309,13 +308,18 @@ img.image{
     font-weight: 600;
     color: #F9F8F8;
 }
-.container .footer .list ul{
+.container .footer .list{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 20px;
+    gap: 550px;
     position: absolute;
     width: 1200px;
-    list-style-type: none;
     left: 120px;
+    top: 39px;
+}
+.container .footer .list ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
 }
