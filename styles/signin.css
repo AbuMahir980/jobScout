@@ -185,7 +185,7 @@ body{
     cursor: pointer;
 }
 .btn:hover{
-    opacity: 0.8;
+    opacity: 0.6;
 }
 /*div class "extra" container styling */
 .forms .formsLevel1 .extras{
@@ -264,8 +264,28 @@ div.socials{
     font-weight: bold;
     color: #F9F8F8;
 }
+.social:hover{
+    background-color: #09575B;
+    opacity: 0.9;
+}
 img.image{
     width: 24px;
     height: 24px;
     padding-top: 2px;
+}
+.forms .txtContainer{
+    margin-top: -90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    width: 400px;
+    height:80px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: #F9F8F8;
+    font-family: inherit;
+    font-size: 10px;
+    font-weight: 600;
 }
