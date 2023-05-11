@@ -273,6 +273,7 @@ img.image{
     height: 24px;
     padding-top: 2px;
 }
+/* Privacy Statement & Create account */
 .forms .txtContainer{
     margin-top: -90px;
     display: flex;
@@ -288,4 +289,8 @@ img.image{
     font-family: inherit;
     font-size: 10px;
     font-weight: 600;
+}
+.forms .txtContainer a{
+    text-decoration: none;
+    color: #FFD8B0;
 }
