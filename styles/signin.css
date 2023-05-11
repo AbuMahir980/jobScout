@@ -255,3 +255,7 @@ div.socials{
     flex-grow: 0;
     cursor: pointer;
 }
+img.image{
+    width: 24px;
+    height: 24px;
+}
