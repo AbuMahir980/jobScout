@@ -254,6 +254,9 @@ div.socials{
     order: 0;
     flex-grow: 0;
     cursor: pointer;
+    padding-right: 120px;
+    gap: 90px;
+    margin-top: 2px;
 }
 img.image{
     width: 24px;
