@@ -240,6 +240,7 @@ div.socials{
     background-color: white;
     margin-top: 30px;
 }
+/* .social container styling */
 .socials .social{
     display: flex;
     flex-direction: row;
