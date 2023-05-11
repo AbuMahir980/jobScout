@@ -188,16 +188,18 @@ body{
     opacity: 0.8;
 }
 /*div class "extra" container styling */
-.forms .formsLevel1 .extra{
+.forms .formsLevel1 .extras{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     align-items: center;
+    justify-content: center;
     width: 400px;
     height: 19px;
+    margin-top: -15px;
 }
 /* HR class line styling */
 hr.line{
-    width: 150px;
+    width: 180px;
     top: 9.5px;
     border: 1px solid #C0C0C0;
 }
@@ -210,5 +212,17 @@ p#txt{
     color: #F9F8F8;
     flex: none;
     order: 1;
+    flex-grow: 0;
+    margin: 0px 5px;
+}
+/* hr class one and two styling */
+hr.one{
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+} 
+hr.two {
+    flex: none;
+    order: 2;
     flex-grow: 0;
 }
