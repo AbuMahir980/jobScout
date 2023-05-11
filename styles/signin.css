@@ -295,3 +295,12 @@ img.image{
     text-decoration: none;
     color: #FFD8B0;
 }
+/* footer section styling */
+.footer{
+    position: absolute;
+    width: auto;
+    height: 100px;
+    left: 0px;
+    top: 1300px;
+    background-color: #0E8388;
+}
