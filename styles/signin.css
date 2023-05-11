@@ -7,7 +7,7 @@ html{
     margin: 0;
 }
 body{
-    height: 1372px;
+    height: 1290px;
     background: linear-gradient(180deg, #BEDEDF 0%, #C2DFE0 70.76%, #FFFFFF 132.84%);
 }
 /*header container*/
@@ -28,7 +28,7 @@ body{
 .container .innerCont{
     position: absolute;
     width: 800px;
-    height: 900px;
+    height: 850px;
     left: 295px;
     top: 220px;
     background: #5EACB0;
@@ -83,7 +83,7 @@ body{
     gap: 16px;
     position: absolute;
     width: 590px;
-    height: 631px;
+    height: 628px;
     left: 190px;
     top: 217px;
     font-family: 'Roboto',
@@ -296,11 +296,21 @@ img.image{
     color: #FFD8B0;
 }
 /* footer section styling */
-.footer{
-    position: absolute;
+.container .footer{
+    position: relative;
     width: auto;
-    height: 100px;
+    height: 80px;
     left: 0px;
-    top: 1300px;
+    top: 1100px;
     background-color: #0E8388;
+}
+.container .footer .list ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    width: 1200px;
+    list-style-type: none;
+    left: 120px;
 }
