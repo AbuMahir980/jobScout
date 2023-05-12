@@ -252,9 +252,8 @@ div.socials{
     order: 0;
     flex-grow: 0;
     cursor: pointer;
-    padding-right: 120px;
-    padding-top: 3px;
-    gap: 90px;
+    gap: 40px;
+    padding-top: 6px;
     margin-top: 2px;
     background-color: #5EACB0;
     font-family: inherit;
@@ -267,7 +266,13 @@ div.socials{
     background-color: #09575B;
     opacity: 0.9;
 }
+div.img{
+    position: absolute;
+    top: 309px;
+    left: 10px;
+}
 img.image{
+    
     width: 24px;
     height: 24px;
     padding-top: 2px;
