@@ -323,3 +323,9 @@ img.image{
     list-style-type: none;
     gap: 20px;
 }
+/* footer anchor element styling */
+.container .footer .list a{
+    text-decoration: none;
+    color: inherit;
+    font: inherit;
+}
