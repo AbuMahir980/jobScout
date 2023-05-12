@@ -346,7 +346,7 @@ img.image{
     font: inherit;
 }
 /*password toggle styling*/
-.fa-eye{
+.forms .formsLevel1 .miniforms .eye{
     position: absolute;
     top: 103px;
     left: 360px;
