@@ -345,3 +345,10 @@ img.image{
     color: inherit;
     font: inherit;
 }
+/*password toggle styling*/
+.fa-eye{
+    position: absolute;
+    top: 103px;
+    left: 360px;
+    cursor: pointer;
+}
