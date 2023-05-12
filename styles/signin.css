@@ -253,7 +253,7 @@ div.socials{
     flex-grow: 0;
     cursor: pointer;
     gap: 40px;
-    padding-top: 6px;
+    padding-top: 7px;
     margin-top: 2px;
     background-color: #5EACB0;
     font-family: inherit;
@@ -266,9 +266,20 @@ div.socials{
     background-color: #09575B;
     opacity: 0.9;
 }
-div.img{
+/* div id img styling */
+div#img{
     position: absolute;
     top: 309px;
+    left: 10px;
+}
+div#img1{
+    position: absolute;
+    top: 363px;
+    left: 10px;
+}
+div#img2{
+    position: absolute;
+    top: 416px;
     left: 10px;
 }
 img.image{
