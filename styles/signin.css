@@ -352,3 +352,6 @@ img.image{
     left: 360px;
     cursor: pointer;
 }
+#hide1{
+    display: none;
+}
