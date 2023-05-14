@@ -93,7 +93,7 @@ body {
     gap: 16px;
     position: absolute;
     width: 590px;
-    height: 628px;
+    height: 630px;
     left: 180px;
     top: 200px;
     font-family: 'Roboto',
@@ -109,6 +109,7 @@ body {
         'Helvetica Neue',
         sans-serif;
     font-style: normal;
+    background-color: #FFD8B0;
 }
 
 /*forms level*/
