@@ -397,7 +397,12 @@ img.image {
     left: 360px;
     cursor: pointer;
 }
-
+.forms .formsLevel1 .miniforms .eyes {
+    position: absolute;
+    top: 175px;
+    left: 360px;
+    cursor: pointer;
+}
 #hide1 {
     display: none;
 }
