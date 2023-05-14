@@ -266,7 +266,7 @@ div.socials {
     flex: none;
     order: 2;
     flex-grow: 0;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 /* .social container styling */
@@ -302,19 +302,19 @@ div.socials {
 /* div id img styling */
 div#img {
     position: absolute;
-    top: 309px;
+    top: 340px;
     left: 10px;
 }
 
 div#img1 {
     position: absolute;
-    top: 363px;
+    top: 393px;
     left: 10px;
 }
 
 div#img2 {
     position: absolute;
-    top: 416px;
+    top: 446px;
     left: 10px;
 }
 
