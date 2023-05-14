@@ -328,7 +328,7 @@ img.image {
 
 /* Privacy Statement & Create account */
 .forms .txtContainer {
-    margin-top: -40px;
+    margin-top: -70px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -342,7 +342,6 @@ img.image {
     font-family: inherit;
     font-size: 10px;
     font-weight: 600;
-    background-color: #C0C0C0;
 }
 
 /* Privacy * account anchor element styling */
