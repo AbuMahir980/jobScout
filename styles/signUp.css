@@ -403,6 +403,6 @@ img.image {
     left: 360px;
     cursor: pointer;
 }
-#hide1 {
+#hide1, #hide3 {
     display: none;
 }
