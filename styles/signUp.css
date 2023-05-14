@@ -109,7 +109,6 @@ body {
         'Helvetica Neue',
         sans-serif;
     font-style: normal;
-    background-color: #FFD8B0;
 }
 
 /*forms level*/
@@ -328,7 +327,7 @@ img.image {
 
 /* Privacy Statement & Create account */
 .forms .txtContainer {
-    margin-top: -90px;
+    margin-top: -60px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -342,6 +341,7 @@ img.image {
     font-family: inherit;
     font-size: 10px;
     font-weight: 600;
+    background-color: #C0C0C0;
 }
 
 /* Privacy * account anchor element styling */
