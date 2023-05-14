@@ -25,7 +25,7 @@ function myfunction1(){
     }
     else{
         a.type = "passwordSec";
-        b.style.display = "block";
-        c.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "block";
     }
 }
