@@ -13,3 +13,19 @@ function myfunction() {
         z.style.display = "block";
     }
 }
+
+function myfunction1(){
+    var a = document.getElementById('mypassword1');
+    var b = document.getElementById('hide3');
+    var c = document.getElementById('hide4');
+    if(a.type === 'passwordSec'){
+        a.type = "text";
+        b.style.display = "block";
+        c.style.display = "none";
+    }
+    else{
+        a.type = "passwordSec";
+        b.style.display = "block";
+        c.style.display = "none";
+    }
+}
