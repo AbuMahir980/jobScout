@@ -13,4 +13,3 @@ function myfunction() {
         z.style.display = "block";
     }
 }
-
