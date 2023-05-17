@@ -2,7 +2,7 @@ function togglePasswordVisibility() {
     var newPassword = document.getElementById('mypassword');
     var passwordHidden = document.getElementById('hide1');
     var passwordVisible = document.getElementById('hide2');
-    if(x.type === 'password'){
+    if(newPassword.type === 'password'){
         newPassword.type = "text";
         passwordHidden.style.display = "block";
         passwordVisible.style.display = "none";
