@@ -1,31 +1,31 @@
-function myfunction() {
-    var x = document.getElementById('mypassword');
-    var y = document.getElementById('hide1');
-    var z = document.getElementById('hide2');
-    if(x.type === 'password'){
-        x.type = "text";
-        y.style.display = "block";
-        z.style.display = "none";
+function togglePasswordVisibility() {
+    var newPassword = document.getElementById('mypassword');
+    var passwordHidden = document.getElementById('hide1');
+    var passwordVisible = document.getElementById('hide2');
+    if(newPassword.type === 'password'){
+        newPassword.type = "text";
+        passwordHidden.style.display = "block";
+        passwordVisible.style.display = "none";
     }
     else{
-        x.type = "password";
-        y.style.display = "none";
-        z.style.display = "block";
+        newPassword.type = "password";
+        passwordHidden.style.display = "none";
+        passwordVisible.style.display = "block";
     }
 }
 
-function myfunction1(){
-    var a = document.getElementById('my_password');
-    var b = document.getElementById('hide3');
-    var c = document.getElementById('hide4');
-    if(a.type === 'password'){
-        a.type = "text";
-        b.style.display = "block";
-        c.style.display = "none";
+function togglePasswordVisibility1(){
+    var newPassword1 = document.getElementById('my_password');
+    var passwordHidden1 = document.getElementById('hide3');
+    var passwordVisible1 = document.getElementById('hide4');
+    if(newPassword1.type === 'password'){
+        newPassword1.type = "text";
+        passwordHidden1.style.display = "block";
+        passwordVisible1.style.display = "none";
     }
     else{
-        a.type = "password";
-        b.style.display = "none";
-        c.style.display = "block";
+        newPassword1.type = "password";
+        passwordHidden1.style.display = "none";
+        passwordVisible1.style.display = "block";
     }
 }
