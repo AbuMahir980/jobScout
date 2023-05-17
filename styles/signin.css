@@ -351,6 +351,7 @@ img.image{
     top: 103px;
     left: 360px;
     cursor: pointer;
+    color: #808080;
 }
 #hide1{
     display: none;
