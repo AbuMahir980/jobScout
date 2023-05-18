@@ -86,7 +86,7 @@ body {
     width: 590px;
     height: 56px;
     left: 0px;
-    top: 413px;
+    top: 423px;
     background-color: #09575B;
     border: 0;
     border-radius: 5px;
@@ -113,7 +113,10 @@ body {
     left: 40px;
     top: 0px;
     text-align: center;
-    background-color: rgba(245, 245, 245, 0.151);
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: 600;
+    font-size: 15px;
 }
 
 
