@@ -42,6 +42,15 @@ body {
     border-radius: 10px;
 }
 
+.container .innerCont .sunInn{
+    position: absolute;
+    width: 590px;
+    background-color: wheat;
+    height: 541px;
+    left: 153px;
+    top: 69px;
+}
+
 
 
 
