@@ -90,12 +90,12 @@ body {
 .forms {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+    align-items: flex-end;
+    gap: 20px;
     position: absolute;
-    width: 500px;
+    width: 600px;
     height: 170px;
-    left: 200px;
+    left: 75px;
     top: 250px;
     flex: none;
     order: 1;
