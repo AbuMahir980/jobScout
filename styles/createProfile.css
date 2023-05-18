@@ -127,7 +127,14 @@ body {
     left: 0px;
     top: 84px;
 }
-
+/*Styling of minForm*/
+.container.innerCont .subInn .topLayer .forms .minForm{
+    position: inherit;
+    width: inherit;
+    height: 174px;
+    left: 0px;
+    top: 0px;
+}
 /* footer section styling */
 .container .footer {
     position: relative;
