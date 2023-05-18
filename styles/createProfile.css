@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 1290px;
+    background: linear-gradient(180deg, #BEDEDF 0%, #C2DFE0 70.76%, #FFFFFF 132.84%);
+}
+
+/*header container*/
+.container .header {
+    background-color: #0E8388;
+    width: auto;
+    height: 110px;
+}
+
+/*logo styling*/
+.header img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 15px;
+    left: 120px;
+}
+
+/*inner container*/
+.container .innerCont {
+    position: absolute;
+    width: 800px;
+    height: 850px;
+    left: 295px;
+    top: 220px;
+    background: #5EACB0;
+    border-radius: 10px;
+}
