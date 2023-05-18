@@ -105,7 +105,7 @@ body {
     opacity: 0.8;
     cursor: pointer;
 }
-
+/*h5 styling*/
 .container .innerCont .subInn .topLayer h5{
     position: absolute;
     width: 500px;
@@ -119,8 +119,14 @@ body {
     font-size: 15px;
     line-height: 22px;
 }
-
-
+/*Styling of div forms*/
+.container .innerCont .subInn .topLayer .forms{
+    position: absolute;
+    width: inherit;
+    height: 289;
+    left: 0px;
+    top: 84px;
+}
 
 /* footer section styling */
 .container .footer {
