@@ -48,7 +48,6 @@ body {
 .container .innerCont .subInn{
     position: absolute;
     width: 590px;
-    background-color: navy;
     height: 541px;
     left: 120px;
     top: 69px;
@@ -64,20 +63,48 @@ body {
     font-style: inherit;
     font-weight: 600;
     font-size: 20px;
-    background-color: #0E8388;
     text-align: center;
     color: inherit;
 }
 /*subInn topLayer container*/
 .container .innerCont .subInn .topLayer{
-    background-color: rgba(245, 245, 245, 0.432);
     position: absolute;
     width: 590px;
     height: 469px;
     left: 0px;
     top: 72px;
 }
+/* button styling */
+.container .innerCont .subInn .btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 209px;
+    gap: 10px;
+    position:absolute;
+    width: 590px;
+    height: 56px;
+    left: 0px;
+    top: 413px;
+    background-color: #09575B;
+    border: 0;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: bolder;
+    line-height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: inherit;
+}
 
+.btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
 
 
 
