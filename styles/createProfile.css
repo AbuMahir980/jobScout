@@ -106,6 +106,16 @@ body {
     cursor: pointer;
 }
 
+.container .innerCont .subInn .topLayer h5{
+    position: absolute;
+    width: 500px;
+    height: 64px;
+    left: 40px;
+    top: 0px;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.151);
+}
+
 
 
 /* footer section styling */
