@@ -13,7 +13,7 @@ body{
 /*header container*/
 .container .header{
     background-color: #0E8388;
-    width: auto;
+    width: 1350px;
     height: 110px;
 }
 /*logo styling*/
@@ -313,7 +313,7 @@ img.image{
 /* footer section styling */
 .container .footer{
     position: relative;
-    width: auto;
+    width: 1350px;
     height: 80px;
     left: 0px;
     top: 1100px;
