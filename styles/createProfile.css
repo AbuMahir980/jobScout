@@ -69,6 +69,15 @@ body {
     color: inherit;
 }
 
+.container .innerCont .subInn .toplayer{
+    background-color: rgba(245, 245, 245, 0.432);
+    position: absolute;
+    width: 590px;
+    height: 469px;
+    left: 0px;
+    top: 72px;
+}
+
 
 
 
