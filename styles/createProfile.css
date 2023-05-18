@@ -68,8 +68,8 @@ body {
     text-align: center;
     color: inherit;
 }
-
-.container .innerCont .subInn .toplayer{
+/*subInn topLayer container*/
+.container .innerCont .subInn .topLayer{
     background-color: rgba(245, 245, 245, 0.432);
     position: absolute;
     width: 590px;
