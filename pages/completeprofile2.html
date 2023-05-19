@@ -27,43 +27,48 @@
                     <h2>Tell us more.</h2>
                 </div>
 
-                <hr class="line">
-
                 <div class="forms">
-                    <div class="recentJob">
-                        <label for="recentJob">Most recent job</label>
-                        <br>
-                        <input type="text" name="recentJob" id="recentJob" placeholder="Web Developer">
-                    </div>
+                    <h5>Desired Job(s)</h5>
+                    <div class="formLev">
+                        <div class="desiredJob">
+                            <label for="desiredJob">Which job are you looking for</label>
+                            <br>
+                            <input type="text" name="desiredJob" id="recentJob" placeholder="e.g UI/UX designer">
+                        </div>
 
-                    <div class="recentCompany">
-                        <label for="recentCompany">Most recent company</label>
-                        <br>
-                        <input type="text" name="recentCompany" id="recentCompany" placeholder="Google">
-                    </div>
+                        <div class="employmentType">
+                            <label for="employmentType">Employment Type</label>
+                            <br>
+                            <select class="box" name="employmentType" id="employmentType" required>
+                                <option value="" disabled selected hidden id="lone">Select</option>
+                                <option value="Part-Time">Part-Time</option>
+                                <option value="Full-Time">Full-Time</option>
+                                <option value="Temporary">Temporary</option>
+                                <option value="Contract">Contract</option>
+                                <option disabled="disabled">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</option>
+                                <option value="Interim">Interim</option>
+                                <option value="Seasonal">Seasonal</option>
+                                <option value="Freelance">Freelance</option>
+                            </select>
+                        </div>  
 
-                    <div class="jobLocation">
-                        <label for="jobLocation">Job Location</label>
-                        <br>
-                        <input type="text" name="jobLocation" id="jobLocation" placeholder="Lagos">
-                    </div>
+                        <div class="jobLocation">
+                            <label for="jobLocation">Job Location(s)</label>
+                            <br>
+                            <input type="text" name="jobLocation" id="jobLocation" placeholder="Lagos">
+                        </div>
 
-                    <div class="employmentType">
-                        <label for="employmentType">Employment Type</label>
-                        <br>
-                        <select class="box" name="employmentType" id="employmentType" required>
-                            <option value="" disabled selected hidden id="lone">Select</option>
-                            <option value="Part-Time">Part-Time</option>
-                            <option value="Full-Time">Full-Time</option>
-                            <option value="Temporary">Temporary</option>
-                            <option value="Contract">Contract</option>
-                            <option disabled="disabled">&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;</option>
-                            <option value="Interim">Interim</option>
-                            <option value="Seasonal">Seasonal</option>
-                            <option value="Freelance">Freelance</option>
-                        </select>
-                    </div>  
+                        <div class="expSalary">
+                            <label for="expSalary">Expected Salary</label>
+                            <br>
+                            <input type="text" name="expSalary" id="expSalary" placeholder="₦0.00 per year">
+                        </div>    
+                    </div>
+                    
+ 
                 </div>
+
+                <hr class="line">
 
                 <div class="btn">
                     <a href="../pages/completeprofile2.html">I have no work history</a>
@@ -72,6 +77,7 @@
             </div>
 
         </div>
+        -->
         <!--Footer-->
         <div class="footer">
             <div class="list">

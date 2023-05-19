@@ -92,7 +92,7 @@ body {
 .container .innerCont .subInn .icon h2{
     width: 505px;
     height: 47px;
-    font-family: 'Roboto';
+    font-family: inherit;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -102,13 +102,92 @@ body {
     order: 0;
     flex-grow: 0;
 }
+
+.subInn .forms {
+    position: absolute;
+    width: 590px;
+    height: 403px;
+    left: 152px;
+    top: 86px;
+}
+.forms h5{
+    position: absolute;
+    width: 200px;
+    height: 27px;
+    left: 0px;
+    top: 0px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23.04px;
+    line-height: 27px;
+    color: inherit;
+}
+.forms .formLev{
+    position: absolute;
+    width: 590px;
+    height: 360px;
+    left: 0px;
+    top: 51px;
+}
+.subInn .forms .formLev .desiredJob .employmentType .jobLocation .expSalary{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    position: absolute;
+    width: 590px;
+    height: 76px;
+    left: 0px;
+    top: 0px;
+    
+}
+.employmentType{
+    top: 92px;
+    margin-top: 10px;
+}
+.jobLocation{
+    top: 184px;
+    margin-top: 10px;
+}
+.expSalary{
+    top: 276px;
+    margin-top: 10px;
+}
+.subInn .forms label{
+    width: 200px;
+    height: 19px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #F9F8F8;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.subInn .forms input, select{
+    width: 500px;
+        height: 56px;
+        background: #F9F8F8;
+        border: 1px solid #C0C0C0;
+        border-radius: 10px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+
+
+
+
 /*hr styling */
 hr.line {
     position: absolute;
     width: 820px;
     height: 0px;
     left: 0px;
-    top: 400px;
+    top: 500px;
 }
 
 /* footer section styling */
