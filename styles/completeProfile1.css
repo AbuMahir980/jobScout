@@ -157,6 +157,15 @@ hr.line{
         top: 400px;
 }
 
+.subInn .forms{
+    position: absolute;
+    width: 590px;
+    height: 364px;
+    left: 110px;
+    top: 420px;
+    background-color: wheat;
+}
+
 
 
 
