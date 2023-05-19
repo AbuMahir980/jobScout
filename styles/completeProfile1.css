@@ -119,15 +119,35 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 16px;
-    width: 407.71px;
-    height: 192.58px;
+    gap: 20px;
+    width: 500px;
+    height: 300px;
     flex: none;
     order: 2;
     flex-grow: 0;
+    margin-top: -40px;
+    justify-content: center;
 }
 
-
+.icon .component #employed{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 200px;
+    height: auto;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: -30px;
+}
+.icon .component #unemployed{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 200px;
+    height: auto;
+    margin-top: -30px;
+}
 
 
 
