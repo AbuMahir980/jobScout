@@ -187,7 +187,7 @@ body {
     flex-grow: 0;
 }
 input::placeholder{
-    width: 63px;
+    width: 121px;
     height: 19px;
     padding: 10px;
     font-family: inherit;
