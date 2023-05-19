@@ -153,6 +153,7 @@ body {
 .row3{
     top: 230px;
     align-items: flex-start;
+    height: 99px;
 }
 /*styling of containers in minForm container*/
 .forms .minForm .row1 .firstname, .secondname, .phone, .gender{
