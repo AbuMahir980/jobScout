@@ -135,7 +135,7 @@ body {
     left: 0px;
     top: 0px;
 }
-.forms .minForm .row1{
+.forms .minForm .row1, .row2{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -145,6 +145,9 @@ body {
     width: 590px;
     height: 79px;
     left: 0px;
+}
+.row2{
+    top: 95px;
 }
 /*styling of firstname container*/
 .forms .minForm .row1 .firstname, .secondname{
