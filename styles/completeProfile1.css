@@ -44,27 +44,19 @@ body {
     background: #5EACB0;
     border-radius: 10px;
 }
-
-/*subInn container*/
-.container .innerCont .subInn {
-    position: absolute;
-    width: 590px;
-    height: 541px;
-    left: 120px;
-    top: 69px;
-}
 /*div Back styling*/
-.container .innerCont .subInn .back{
+.container .innerCont .back {
     display: flex;
     flex-direction: row;
     align-items: center;
     position: absolute;
     width: 75px;
     height: 30px;
-    left: -50px;
-    top: 12px;
+    left: 40px;
+    top: 62px;
 }
-.back a{
+
+.back a {
     text-decoration: none;
     font-family: inherit;
     color: inherit;
@@ -75,6 +67,17 @@ body {
     order: 1;
     flex-grow: 0;
 }
+
+/*subInn container*/
+.container .innerCont .subInn {
+    position: absolute;
+    width: 820px;
+    height: 1000px;
+    left: 0px;
+    top: 100px;
+    background-color: wheat;
+}
+
 
 
 
