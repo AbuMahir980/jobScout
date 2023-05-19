@@ -135,6 +135,17 @@ body {
     left: 0px;
     top: 0px;
 }
+.forms .minForm .row1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 590px;
+    height: 79px;
+    left: 0px;
+}
 /* footer section styling */
 .container .footer {
     position: relative;
