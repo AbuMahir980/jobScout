@@ -87,8 +87,23 @@ body {
     height: 331.58px;
     left: 160px;
     top: 0px;
+    text-align: center;
     background-color: wheat;
 }
+.container .innerCont .subInn .icon h2{
+    width: 505px;
+    height: 47px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 47px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
 
 
 
