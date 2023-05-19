@@ -147,10 +147,11 @@ body {
     left: 0px;
 }
 .row2{
-    top: 95px;
+    top: 120px;
+    
 }
-/*styling of firstname container*/
-.forms .minForm .row1 .firstname, .secondname{
+/*styling of containers in minForm container*/
+.forms .minForm .row1 .firstname, .secondname, .phone, .gender{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -163,8 +164,8 @@ body {
 .secondname{
     order: 1;
 }
-/*styling of label in firstname container*/
-.forms .minForm .row1 label{
+/*styling of label in minform container*/
+.forms .minForm label{
     width: 150px;
     height: 19px;
     font-family: inherit;
@@ -178,8 +179,8 @@ body {
     flex-grow: 0;
     margin: -5px 0px;
 }
-/*styling of input in firstname container*/
-.forms .minForm .row1 input{
+/*styling of input and select in minform container*/
+.forms .minForm input, select{
     width: 287px;
     height: 56px;
     background: #F9F8F8;
@@ -189,7 +190,7 @@ body {
     order: 1;
     flex-grow: 0;
 }
-input::placeholder{
+input::placeholder,{
     width: 121px;
     height: 19px;
     padding: 10px;
