@@ -156,7 +156,7 @@ hr.line{
         left: 0px;
         top: 400px;
 }
-
+/*class forms styling*/
 .subInn .forms{
     position: absolute;
     width: 590px;
@@ -165,7 +165,20 @@ hr.line{
     top: 420px;
     background-color: wheat;
 }
-
+/*class button styling*/
+.subInn .btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 590px;
+    height: 140px;
+    left: 110px;
+    top: 817.63px;
+    background-color: navy;
+}
 
 
 
