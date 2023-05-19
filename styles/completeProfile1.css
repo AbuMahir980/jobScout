@@ -242,13 +242,52 @@ select:focus {
     padding: 0px;
     gap: 24px;
     position: absolute;
-    width: 590px;
+    width: 550px;
     height: 140px;
-    left: 110px;
+    left: 130px;
     top: 817.63px;
-    background-color: navy;
+    margin-top: 10px;
 }
-
+.btn a{
+    text-decoration: none;
+    width: 273px;
+    height: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27.65px;
+    line-height: 32px;
+    color: #FFC589;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.btn .butn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 209px;
+    gap: 10px;
+    width: 500px;
+    height: 56px;
+    background: #09575B;
+    border-radius: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-size: 22px;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: bolder;
+    color: inherit;
+    border: 0;
+    
+}
+.butn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
 
 
 
