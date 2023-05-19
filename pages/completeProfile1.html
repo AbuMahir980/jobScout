@@ -36,11 +36,43 @@
                 <hr class="line">
 
                 <div class="forms">
+                    <div class="recentJob">
+                        <label for="recentJob">Most recent job</label>
+                        <br>
+                        <input type="text" name="recentJob" id="recentJob" placeholder="Web Developer">
+                    </div>
 
+                    <div class="recentCompany">
+                        <label for="recentCompany">Most recent company</label>
+                        <br>
+                        <input type="text" name="recentCompany" id="recentCompany" placeholder="Google">
+                    </div>
+
+                    <div class="jobLocation">
+                        <label for="jobLocation">Job Location</label>
+                        <br>
+                        <input type="text" name="jobLocation" id="jobLocation" placeholder="Lagos">
+                    </div>
+
+                    <div class="employmentType">
+                        <label for="employmentType">Employment Type</label>
+                        <br>
+                        <select class="box" name="employmentType" id="employmentType" required>
+                            <option value="" disabled selected hidden id="lone">Select</option>
+                            <option value="Part-Time">Part-Time</option>
+                            <option value="Full-Time">Full-Time</option>
+                            <option value="Temporary">Temporary</option>
+                            <option value="Contract">Contract</option>
+                            <option disabled="disabled"></option>
+                            <option value="Interim">Interim</option>
+                            <option value="Seasonal">Seasonal</option>
+                            <option value="Freelance">Freelance</option>
+                        </select>
+                    </div>  
                 </div>
 
                 <div class="btn">
-                    
+
                 </div>
             </div>
 
