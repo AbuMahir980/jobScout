@@ -184,6 +184,18 @@ body {
     flex-grow: 0;
     margin: -5px 0px;
 }
+.forms .minForm p{
+    font-size: 13px;
+    font-family: inherit;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 5px;
+    line-height: 16px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: inherit;
+}
 /*styling of input and select in minform container*/
 .forms .minForm input, select{
     width: 287px;
