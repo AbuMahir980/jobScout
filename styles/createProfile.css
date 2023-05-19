@@ -135,7 +135,7 @@ body {
     left: 0px;
     top: 0px;
 }
-.forms .minForm .row1, .row2{
+.forms .minForm .row1, .row2, .row3{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -149,6 +149,10 @@ body {
 .row2{
     top: 120px;
     
+}
+.row3{
+    top: 190px;
+    align-items: flex-start;
 }
 /*styling of containers in minForm container*/
 .forms .minForm .row1 .firstname, .secondname, .phone, .gender{
