@@ -53,6 +53,28 @@ body {
     left: 120px;
     top: 69px;
 }
+/*div Back styling*/
+.container .innerCont .subInn .back{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: 75px;
+    height: 30px;
+    left: -50px;
+    top: 12px;
+}
+.back a{
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+    font-weight: 700;
+    font-size: 19.2px;
+    line-height: 23px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
 
 
 
