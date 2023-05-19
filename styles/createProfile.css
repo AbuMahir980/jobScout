@@ -38,7 +38,7 @@ body {
 .container .innerCont {
     position: absolute;
     width: 820px;
-    height: 770px;
+    height: 800px;
     left: 290px;
     top: 220px;
     background: #5EACB0;
@@ -86,7 +86,7 @@ body {
     width: 590px;
     height: 56px;
     left: 0px;
-    top: 423px;
+    top: 550px;
     background-color: #09575B;
     border: 0;
     border-radius: 5px;
@@ -151,7 +151,7 @@ body {
     
 }
 .row3{
-    top: 190px;
+    top: 230px;
     align-items: flex-start;
 }
 /*styling of containers in minForm container*/
