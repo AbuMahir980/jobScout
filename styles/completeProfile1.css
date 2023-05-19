@@ -114,7 +114,18 @@ body {
     order: 1;
     flex-grow: 0;
 }
-
+.icon .component{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 407.71px;
+    height: 192.58px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
 
 
 
