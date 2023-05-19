@@ -148,7 +148,14 @@ body {
     height: auto;
     margin-top: -30px;
 }
-
+/*hr styling */
+hr.line{
+    position: absolute;
+        width: 820px;
+        height: 0px;
+        left: 0px;
+        top: 400px;
+}
 
 
 
